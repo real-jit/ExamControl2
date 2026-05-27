@@ -41,7 +41,7 @@ namespace ExamControl2
                         {
                             AdminForm adminForm = new AdminForm(fio);
                             adminForm.Show();
-                            this.Hide();
+                            this.Hide(); // прячем форму но не закрываем
                         }
 
                         else if (roleId == 2)
